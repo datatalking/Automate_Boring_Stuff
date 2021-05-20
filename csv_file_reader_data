@@ -1,0 +1,26 @@
+#%%
+# the csv is the data
+import csv
+# now we need to open the file to be read
+exampleFile = open('example.csv')
+# now we have the file, we need to create a reader, think iPad how it reads pdf files
+exampleReader = csv.reader(exampleFile)
+# use the reader method to create a list for specific data purposes
+exampleData = list(exampleReader)
+exampleData
+#%%
+
+exampleData[0][0]
+#%%
+
+exampleData[0][1]
+#%%
+
+exampleData[0][2]
+#%%
+
+exampleData[1][1]
+#%%
+
+exampleData[6][1]
+#%%
